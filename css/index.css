@@ -1,0 +1,37 @@
+header{
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("../img/IMG_20190808_130122.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 65%;
+    height: 53vh;
+}
+
+.text-box{
+    position: absolute;
+    top: 28%;
+    left: 5%;
+    color: #f2a365;
+}
+
+#about{
+    background-color: #f2a365;
+    color: #222831;
+    padding: 50px 20px;
+    text-align: center;
+    box-shadow: black;
+}
+
+.profile{
+    height:400px; 
+    width:100%;
+}
+
+@media only screen and (max-width: 770px) {
+    .profile{
+        height:400px; 
+        width:100%;
+    }
+    header{
+    height: 52vh; 
+    }
+}

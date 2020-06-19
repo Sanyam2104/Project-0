@@ -1,0 +1,28 @@
+.init{
+    margin-top: 70px;
+    text-align: center;
+    color: #222831;
+}
+
+table{
+    margin: 50px;
+    margin-left: 20%;
+    padding: 10px;
+    border-collapse: collapse;
+    margin-bottom: 80px;
+}
+
+th{
+    background-color: #f2a365;
+    color:#222831;
+    height: 50px;
+}
+
+td{
+    border-bottom: 1px solid #30475e;
+}
+
+th,td{
+    padding: 7px;
+    margin: 13px;
+}
